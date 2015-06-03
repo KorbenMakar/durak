@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <title>FULL</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/cards.css">
     <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/app.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
@@ -17,17 +20,17 @@
                 <li class="main-nav-item">menu</li>
             </ul>
         </header>
-        <div class="main-container">
+        <div class="main-container" id="menu">
             <div class="menu-wrapper">
                 <div class="start-menu">
                     подкидной дурак
                 </div>
                 <ul class="menu-list">
-                    <li class="menu-list-item"><a class="menu-list-item-link" href="#">2 players</a></li>
-                    <li class="menu-list-item"><a class="menu-list-item-link" href="#">3 players</a></li>
-                    <li class="menu-list-item"><a class="menu-list-item-link" href="#">4 players</a></li>
-                    <li class="menu-list-item"><a class="menu-list-item-link" href="#">5 players</a></li>
-                    <li class="menu-list-item"><a class="menu-list-item-link" href="#">6 players</a></li>
+                    <li class="menu-list-item"><a class="menu-list-item-link" href="javascript:void(0);" data-players-count="2">2 players</a></li>
+                    <li class="menu-list-item"><a class="menu-list-item-link" href="javascript:void(0);" data-players-count="3">3 players</a></li>
+                    <li class="menu-list-item"><a class="menu-list-item-link" href="javascript:void(0);" data-players-count="4">4 players</a></li>
+                    <li class="menu-list-item"><a class="menu-list-item-link" href="javascript:void(0);" data-players-count="5">5 players</a></li>
+                    <li class="menu-list-item"><a class="menu-list-item-link" href="javascript:void(0);" data-players-count="6">6 players</a></li>
                 </ul>
             </div>
             </div>
@@ -54,52 +57,53 @@
 
             </div>
             <div class="cards">
-                <div class="card cardAS"></div>
-                <div class="card cardAH"></div>
-                <div class="card cardAD"></div>
-                <div class="card cardAC"></div>
-                <div class="card cardKS"></div>
-                <div class="card cardKH"></div>
-                <div class="card cardKD"></div>
-                <div class="card cardKC"></div>
-                <div class="card cardQS"></div>
-                <div class="card cardQH"></div>
-                <div class="card cardQD"></div>
-                <div class="card cardQC"></div>
-                <div class="card cardJS"></div>
-                <div class="card cardJH"></div>
-                <div class="card cardJD"></div>
-                <div class="card cardJC"></div>
-                <div class="card cardTS"></div>
-                <div class="card cardTH"></div>
-                <div class="card cardTD"></div>
-                <div class="card cardTC"></div>
-                <div class="card card9S"></div>
-                <div class="card card9H"></div>
-                <div class="card card9D"></div>
-                <div class="card card9C"></div>
-                <div class="card card8S"></div>
-                <div class="card card8H"></div>
-                <div class="card card8D"></div>
-                <div class="card card8C"></div>
-                <div class="card card8S"></div>
-                <div class="card card8H"></div>
-                <div class="card card8D"></div>
-                <div class="card card8C"></div>
-                <div class="card card7S"></div>
-                <div class="card card7H"></div>
-                <div class="card card7D"></div>
-                <div class="card card7C"></div>
-                <div class="card card6S"></div>
-                <div class="card card6H"></div>
-                <div class="card card6D"></div>
-                <div class="card card6C"></div>
+                <div class="card card-back card-rotate-left"></div>
                 <div class="card card-back"></div>
-                <div class="card trump-card"></div>
+                <div class="card card-back card-rotate-right"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-left"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-right"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-left"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-right"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-left"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-right"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-left"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-right"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-left"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-right"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-left"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-right"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-left"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-right"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-left"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-right"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-left"></div>
+                <div class="card card-back"></div>
+                <div class="card card-back card-rotate-right"></div>
+                <div class="card card-back"></div>
+                <div class="card card-bac card-rotate-left"></div>
+                <div class="card trump-card card-back"></div>
             </div>
             <button type="button" class="rebound">rebound</button>
             <button type="button" class="receive">receive</button>
             <button type="button" class="start">start</button>
+            <button type="button" class="menu-btn" onclick="app.stopGame();">menu</button>
         </div>
         <footer>
 

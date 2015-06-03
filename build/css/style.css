@@ -53,13 +53,6 @@ header{
 .player{
     overflow: hidden;
 }
-.card{
-    width: 88px;
-    height: 130px;
-    position: absolute;
-    top: 14%;
-    left: 84%;
-}
 .player-1-place{
     width: 300px;
     height: 130px;
@@ -163,6 +156,11 @@ header{
     top: 75%;
     left: 85%;
 }
+.menu-btn{
+    position: absolute;
+    top: 80%;
+    left: 85%;
+}
 .player-1-place, .player-2-place{
     transform: rotate(180deg);
 }
@@ -172,121 +170,7 @@ header{
  .player-6-place{
     transform: rotate(90deg);
 }
- .cardAS{
-     background: url(../images/sprite-cards.png) -295px -421px no-repeat;
- }
-.cardAH{
-    background: url(../images/sprite-cards.png) -196px -421px no-repeat;
-}
-.cardAD{
-    background: url(../images/sprite-cards.png) -98px -421px no-repeat;
-}
-.cardAC{
-    background: url(../images/sprite-cards.png) 1px -421px no-repeat;
-}
-.cardKS{
-    background: url(../images/sprite-cards.png) -294px 0px no-repeat;
-}
-.cardKH{
-    background: url(../images/sprite-cards.png) -98px 0px no-repeat;
-}
-.cardKD{
-    background: url(../images/sprite-cards.png) -196px 0px no-repeat;
-}
-.cardKC{
-    background: url(../images/sprite-cards.png) 0px 0px no-repeat;
-}
-.cardQS{
-    background: url(../images/sprite-cards.png) 0px -141px no-repeat;
-}
-.cardQH{
-    background: url(../images/sprite-cards.png) -196px -141px no-repeat;
-}
-.cardQD{
-    background: url(../images/sprite-cards.png) -98px -141px no-repeat;
-}
-.cardQC{
-    background: url(../images/sprite-cards.png) -294px -141px no-repeat;
-}
-.cardJS{
-    background: url(../images/sprite-cards.png) 0px -280px no-repeat;
-}
-.cardJH{
-    background: url(../images/sprite-cards.png) -196px -280px no-repeat;
-}
-.cardJD{
-    background: url(../images/sprite-cards.png) -98px -280px no-repeat;
-}
-.cardJC{
-    background: url(../images/sprite-cards.png) 0px -280px no-repeat;
-}
-.cardTS{
-    background: url(../images/sprite-cards.png) -294px -560px no-repeat;
-}
-.cardTH{
-    background: url(../images/sprite-cards.png) -196px -560px no-repeat;
-}
-.cardTD{
-    background: url(../images/sprite-cards.png) -98px -560px no-repeat;
-}
-.cardTC{
-    background: url(../images/sprite-cards.png) 0px -560px no-repeat;
-}
-.card9S{
-    background: url(../images/sprite-cards.png) -294px -700px no-repeat;
-}
-.card9H{
-    background: url(../images/sprite-cards.png) -196px -700px no-repeat;
-}
-.card9D{
-    background: url(../images/sprite-cards.png) -98px -700px no-repeat;
-}
-.card9C{
-    background: url(../images/sprite-cards.png) 0px -700px no-repeat;
-}
-.card8S{
-    background: url(../images/sprite-cards.png) -294px -840px no-repeat;
-}
-.card8H{
-    background: url(../images/sprite-cards.png) -196px -840px no-repeat;
-}
-.card8D{
-    background: url(../images/sprite-cards.png) -98px -840px no-repeat;
-}
-.card8C{
-    background: url(../images/sprite-cards.png) 0px -840px no-repeat;
-}
-.card7S{
-    background: url(../images/sprite-cards.png) -294px -980px no-repeat;
-}
-.card7H{
-    background: url(../images/sprite-cards.png) -196px -980px no-repeat;
-}
-.card7D{
-    background: url(../images/sprite-cards.png) -98px -980px no-repeat;
-}
-.card7C{
-    background: url(../images/sprite-cards.png) 0px -980px no-repeat;
-}
-.card6S{
-    background: url(../images/sprite-cards.png) -294px -1120px no-repeat;
-}
-.card6H{
-    background: url(../images/sprite-cards.png) -196px -1120px no-repeat;
-}
-.card6D{
-    background: url(../images/sprite-cards.png) -98px -1120px no-repeat;
-}
-.card6C{
-    background: url(../images/sprite-cards.png) 0px -1120px no-repeat;
-}
-.card-back{
-    background: url(../images/sprite-cards.png) 0px -1260px no-repeat;
-}
-.trump-card{
-    transform: rotate(90deg);
-    left: 86%;
-}
+
 /**********************   MENU   ************************/
 .menu-wrapper{
     background: yellowgreen;
