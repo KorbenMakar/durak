@@ -199,6 +199,7 @@ header{
 }
 .menu-list-item a{
     display: inline;
+    font-family: Verdana sans-serif;
 }
 .invisible{
     display: none !important;
